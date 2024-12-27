@@ -3,7 +3,7 @@ project(xxx)
 ADD_DEFINITIONS(-std=c++17)
 
 include_directories("include")
-include_directories("/opt/intel/oneapi/mkl/2021.1.1/include")
+include_directories("/opt/intel/oneapi/mkl/2023.0.0/include")
 
 set(CMAKE_CXX_FLAGS "-g -msse -march=core-avx2")
 

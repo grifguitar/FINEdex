@@ -183,7 +183,7 @@ struct AtomicVal {
     COUT_VAR(leaf.is_ptr);
     COUT_VAR(leaf.removed);
     COUT_VAR(leaf.locked);
-    COUT_VAR(leaf.verion);
+    //COUT_VAR(leaf.verion);
     return os;
   }
 
